@@ -1,0 +1,138 @@
+.container{
+    width: 1200px;}
+
+
+.motivation{
+
+    font-size: 26px;
+    text-align: center;
+    font-family: Roboto;
+    Font-style: Black;
+    Font-size: 26px;
+    line-height: 42px;
+    vertical-align: Top;
+    letter-spacing: 6%;
+    border: solid 2px blue;
+    background-color: aquamarine;
+    margin-top: 15px;
+    
+}
+.motivation_style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    gap: 30px;
+}
+.motivation_elements{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin-left: -8px;
+}
+.motivation_description{
+color: blue;
+font-size: 20px;
+line-height: 1.14;
+padding-bottom: 10px;
+}
+.motivation_picture{
+    height: 360px;
+    width:1200px;
+    display: block;
+   margin-bottom: 0px;
+
+}
+
+
+.why{
+    font-size: 26px;
+    text-align: center;
+    font-family: Roboto;
+    Font-style: Black;
+    Font-size: 26px;
+    line-height: 42px;
+    vertical-align: Top;
+    letter-spacing: 6%;
+    border: solid 2px blue;
+    background-color: aquamarine;
+    margin-top: 150px;
+}
+.why_picture{
+    height: 360px;
+    width:1200px;
+    display: block;
+   margin-bottom: 0px;
+
+
+}
+.why_header{
+color:black;
+font-size: 20px;
+line-height: 1.14;
+height: 40px;
+width: 1200px;
+border:double 6px rgb(243, 243, 180);
+align-items: center;
+text-align: center;
+background-color: rgb(213, 210, 210);
+border-radius: 10px;
+padding-top: 8px;}
+
+
+.why_header:hover {
+    cursor: pointer;
+    border: double 10px rgb(59, 14, 243);
+    color: rgb(59, 14, 243) ;
+}
+
+
+.why_element{
+    font-size: 20px;
+}
+
+.aboutme{
+    font-size: 26px;
+    text-align: center;
+    font-family: Roboto;
+    Font-style: Black;
+    Font-size: 26px;
+    line-height: 42px;
+    vertical-align: Top;
+    letter-spacing: 6%;
+    border: solid 2px blue;
+    background-color: aquamarine;
+    margin-top: 150px;
+}
+
+.aboutme_footer{
+    color:black;
+    font-size: 20px;
+    line-height: 1.14;
+    height: 40px;
+    width: 1200px;
+    border:double 6px rgb(243, 243, 180);
+    align-items: center;
+    text-align: center;
+    background-color: rgba(210, 213, 213, 0.997);
+    border-radius: 80px;
+    padding-top: 8px;}
+    
+    .aboutme_footer:hover {
+        cursor: pointer;
+        border: double 10px rgb(59, 14, 243);
+        color: rgb(59, 14, 243) ;
+        background-color: rgb(108, 196, 20);
+    }
+    .aboutme_element{
+        font-size: 20px;
+    }
